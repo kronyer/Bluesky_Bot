@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // ou outra versão de ECMAScript
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node"] // Adicione esta linha
+  },
+  "include": ["src/**/*"], // Ajuste o caminho conforme necessário
+  "exclude": ["node_modules"]
+}
